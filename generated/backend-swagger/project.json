@@ -4,7 +4,7 @@
   "targets": {
     "build": {
       "executor": "nx:noop",
-      "outputs": ["dist/apps/backend"]
+      "outputs": ["{workspaceRoot}/dist/apps/backend"]
     },
     "codegen": {
       "executor": "@nx-dotnet/core:openapi-codegen",
